@@ -1,0 +1,36 @@
+.con {
+    display: flex;
+    width: 52%;
+    height: 460px;
+    overflow-y: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px 0px #d5d5d5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.con > ul {
+    display: block;
+    border-right: 1px solid #d5d5d5;
+    padding: 2%;
+    padding-right: 4%;
+    line-height: 1.9;
+}
+.con > ul li {
+    color: white;
+}
+.con > ul span {
+    color: #d5d5d5;
+    font-size: 15px;
+}
+.con .content {
+    width: 50%;
+    margin-bottom: 20px;
+}
+.con .content ul {
+    box-shadow: none;
+}
+.con .content footer {
+    box-shadow: none;
+}
